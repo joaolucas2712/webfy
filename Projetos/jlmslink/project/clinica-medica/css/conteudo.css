@@ -1,0 +1,30 @@
+.container-conteudo {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-image: url(../assets/recepcao.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+}
+
+.container-conteudo .box-titulo {
+  width: 100%;
+  max-width: 1024px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container-conteudo .box-titulo .titulo h1,
+.container-conteudo .box-titulo .titulo span {
+  width: 500px;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #fff;
+}

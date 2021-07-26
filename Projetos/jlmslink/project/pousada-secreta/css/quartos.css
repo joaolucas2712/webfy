@@ -1,0 +1,31 @@
+.fundo-cortado {
+  display: flex;
+  height: 150px;
+  background-image: url(../assets/img-fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quartos-pousada .container-quartos .foto-quartos {
+  margin: 10px 5px;
+}
+
+.quartos-pousada .container-quartos img {
+  width: 270px;
+  height: 170px;
+}
+
+.info-quarto {
+  width: 45%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-quarto .lista-info {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,27 @@
+.container-rodape {
+  margin-top: 40px;
+  height: 150px;
+  background-color:#49997C;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodape {
+  display: flex;
+}
+
+.rodape-info {
+  margin: 0 15px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.rodape-info img {
+  margin: 0 15px;
+}
+

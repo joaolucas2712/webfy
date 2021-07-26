@@ -1,0 +1,26 @@
+.container-sobre {
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-sobre img {
+  width: 90px;
+  height: 100px;
+}
+
+.container-sobre .descricao {
+  width: 450px;
+  margin: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-sobre .descricao .sobre h3 {
+  margin-bottom: 20px;
+}

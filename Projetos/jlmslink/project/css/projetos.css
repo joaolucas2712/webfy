@@ -1,62 +1,71 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: #cecece;
+  background-color: #F7FFF7;
 }
 
 
 .container-conteudo {
-  max-width: 1280px;
+  max-width: 1180px;
   margin: 10px auto;
   padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  background-color: #bfc0c0;
+  background-color: #F7FFF7;
   border-radius: 7px;
   transition: 400ms;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;
+  flex-wrap: wrap;
 }
 
 .container-conteudo .conteudo-card {
-  border: 3px solid #bfc0c0;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
   border-radius: 5px;
-  box-shadow: 2px 2px 15px rgb(124, 119, 119);
+  box-shadow: 1px 2px 15px rgb(58, 57, 57);
   transition: 400ms;
-  background-color: #2d3142;
+  background-color: #222c319f;
   padding: 5px;
 }
 
 .container-conteudo .conteudo-card:hover {
-  transform: translateY(-15px);
+  transform: translateY(-20px);
 }
 
 .container-conteudo .conteudo-card p {
   width: 300px;
   padding: 5px 5px;
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight:500;
   color: #fff;
 }
 
 .container-conteudo .conteudo-card figure {
+  transition: 500ms;
+
+
   display: flex;
   align-items: center;
   justify-content: center;
+
+}
+
+.container-conteudo .conteudo-card figure:hover {
+  opacity: 0.5;
 }
 
 
 .container-conteudo .conteudo-card .logo {
   width: 280px;
   height: 200px;
-  object-fit: contain;
+  object-fit: scale-down;
 }
 
 .container-conteudo .titulo-tec {
   border-top: 1px solid #fff;
   color: #fff;
   padding: 3px 5px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .container-conteudo .conteudo-card .etiqueta {
@@ -69,12 +78,12 @@ body {
 
 .container-conteudo .conteudo-card .etiqueta .item {
   padding: 3px;
-  margin: 2px 3px;
-  background-color: #fff;
+  margin: 3px 3px;
+  background-color: #F7FFF7;
   border-radius: 3px;
   text-transform: uppercase;
   color: #000;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: bold;
 }
 

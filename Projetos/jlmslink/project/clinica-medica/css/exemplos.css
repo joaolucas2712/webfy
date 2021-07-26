@@ -1,0 +1,155 @@
+/*
+seletor:first-of-type
+pega o primeiro elemento do seu estado, seleciona o primeiro do tipo
+
+aplicando um estilo somente no primeiro elemento do tipo
+*/
+/* p:first-of-type {
+  color: white;
+} */
+
+/*
+seletor:nth-of-type()
+
+a Pseudo classe nth-of-type. Esta tem por objetivo permitir que selecionemos um ou mais elementos baseado em uma ordem de origem, através do seu parâmetro. Criaremos um exemplo mostrando um estilo zebrado para os parágrafos.
+
+criando um efeito zebrado com (2n+1)
+*/
+
+/* p:nth-of-type(2n+1) {
+  background-color: #cecece;
+} */
+
+/*
+aplicando customizacoes em formularios
+input:disabled - aplicar uma regra quando o campo for desabilitado
+*/
+
+/* input:disabled {
+  background: #eee;
+  border: 1px solid red;
+  cursor: not-allowed;
+}
+
+:first-child
+
+input:read-only {
+  background: red;
+  border: 3px solid #222;
+  cursor: not-allowed;
+} */
+
+/*
+Aplicando uma regra quando o checkbox for marcado, iremos alterar o texto desse checkbox
+*/
+
+/* input:checked + label {
+  color: red;
+  font-size: 20px;
+} */
+
+/*
+
+*/
+
+/* input:not(:disabled) {
+  border: 1px solid green;
+} */
+
+
+
+
+
+/*
+selecionando um ultimo elemento
+:last-of-type
+*/
+
+p:last-of-type {
+  font-style: italic;
+}
+
+
+/*
+:nth-last-child(even) parametro = even pega somente os pares
+:nth-last-child(odd) parametro = odd pega somente os impares
+
+:nth-last-child(2) parametro de numeros realiza a contagem de baixo para cima
+*/
+
+
+/*
+:nth-child() pega as regras de cima para baixo inverso do :nth-last-child()
+*/
+
+/* p:nth-last-child(even) {
+  background: green;
+} */
+
+
+
+/*
+aplicando a regra de baixo para cima = p:nth-last-of-type(2n+1)
+aplicando a regra de cima para baixo = p:nth-of-type(2n+1)
+*/
+/* p:nth-last-of-type(2n+1) {
+  background: red;
+} */
+
+
+/*
+de baixo para cima ele pega os dois ultimos paragrafos
+a mesma regra se aplica tirando o last, ele aplicara de cima para baixo
+*/
+
+p:nth-last-of-type(-n+2) {
+  background: red;
+}
+
+/*
+aspas = open=quote
+*/
+
+
+body {
+  display: flex;
+  justify-content: ;
+  align-self: ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  background: #708090;
+}
+.container {
+  max-width: 950px;
+  margin: 10px auto;
+  padding: 30px;
+  background: #778899;
+  border: 5px solid #677685;
+  color: #fff;
+  font-weight: bold;
+}
+
+.ingredientes li:nth-last-of-type(-n+1),
+.tecnologias li:nth-last-of-type(3) {
+  color: red;
+  text-shadow: 0px 1px 5px #fff;
+}

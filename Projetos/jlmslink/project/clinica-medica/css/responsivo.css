@@ -1,0 +1,322 @@
+@media  (min-width:320px) and (max-width:425px) {
+
+  html, body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .container-cabecalho {
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .conteudo-cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .conteudo-cabecalho .box-logo {
+    width: 90%;
+    border-bottom: 1px solid rgb(139, 137, 137);
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .conteudo-cabecalho .navegacao {
+    padding: 5px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+
+  .conteudo-cabecalho .navegacao a {
+    font-weight: 700;
+  }
+
+  .container-conteudo {
+    height: 200px;
+  }
+
+  .container-conteudo .box-titulo .titulo h1,
+  .container-conteudo .box-titulo .titulo span {
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  .box-info-pagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .box-info-pagina h1,
+  .box-info-pagina p {
+    width: 100%;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .lista-pagina {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lista-pagina .sobre-info ul li {
+    font-size: 0.7rem;
+  }
+
+  .lista-pagina .img-med {
+    display: none;
+  }
+
+  .box-info-pagina .texto {
+    width: 15rem;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .rota {
+    width: 90%;
+  }
+
+
+  .medicos .nav-medico {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .medicos .med-item {
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+
+  .box-info-pagina.-texto-variacao p {
+    width: 18rem;
+    font-size: 0.8rem;
+  }
+
+  .foto-medico {
+    display: none;
+  }
+
+}
+
+@media  (min-width:426px) and (max-width:768px) {
+
+  html, body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .container-conteudo {
+    height: 400px;
+  }
+  
+  .container-cabecalho {
+    width: 100vw;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+
+  .conteudo-cabecalho .navegacao {
+    padding: 5px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+
+
+  .container-conteudo {
+    height: 200px;
+  }
+
+  .container-conteudo .box-titulo .titulo h1,
+  .container-conteudo .box-titulo .titulo span {
+    font-size: 1.8rem;
+    padding: 10px;
+  }
+
+  .box-info-pagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .box-info-pagina h1,
+  .box-info-pagina p {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .lista-pagina {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lista-pagina .sobre-info ul li {
+    font-size: 0.9rem;
+  }
+
+  .lista-pagina .img-med {
+    display: none;
+  }
+
+  .box-info-pagina .texto {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+
+  .rota {
+    width: 90%;
+  }
+
+  .medicos .nav-medico {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .medicos .med-item {
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+
+  .box-info-pagina.-texto-variacao p {
+    width: 18rem;
+    font-size: 0.8rem;
+  }
+
+  .foto-medico {
+    display: none;
+  }
+
+}
+
+@media  (min-width:769px) and (max-width:1024px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .container-conteudo {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  background-image: url(../assets/recepcao.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+  
+  .container-cabecalho {
+    width: 100vw;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+
+  .conteudo-cabecalho .navegacao {
+    padding: 5px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+
+
+  .container-conteudo {
+    height: 200px;
+  }
+
+  .container-conteudo .box-titulo .titulo h1,
+  .container-conteudo .box-titulo .titulo span {
+    font-size: 1.9rem;
+    padding: 10px;
+  }
+
+  .box-info-pagina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .box-info-pagina h1,
+  .box-info-pagina p {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .lista-pagina {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lista-pagina .sobre-info ul li {
+    font-size: 1rem;
+  }
+
+  .box-info-pagina .texto {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .rota {
+    width: 100%;
+  }
+
+  .medicos .nav-medico {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .medicos .med-item {
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+
+  .box-info-pagina.-texto-variacao p {
+    width: 25rem;
+    font-size: 1rem;
+  }
+
+}

@@ -1,0 +1,152 @@
+.container-info-pagina {
+  margin: 30px 30px;
+}
+
+.box-info-pagina {
+  height: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box-info-pagina h1 {
+  font-size: 1.2rem;
+  color: #8a8282;
+  font-weight: 700;
+}
+
+.box-info-pagina p {
+  text-align: center;
+  font-size: 0.9rem;
+  width: 460px;
+  color: #8a8282;
+  font-weight: 600;
+}
+
+.box-info-pagina.-espaco-var {
+  margin-top: 20px;
+}
+
+.lista-pagina {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-med {
+  margin-right: 20px;
+}
+
+.sobre-info ul li {
+  font-size: 0.9rem;
+  color: #8a8282;
+  font-weight: 600;
+}
+
+.func-medicos {
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 1024px;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.func-medicos .box-card {
+  margin: 10px 0px;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+  box-shadow: 1px 1px 5px rgb(51, 50, 50);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.func-medicos .box-card figure {
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.func-medicos .box-card figure img {
+  width: 250px;
+  height: 210px;
+  object-fit: cover;
+}
+
+.func-medicos .box-card figure figcaption {
+  font-size: 1.2rem;
+  color: #8a8282;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btn-horarios a {
+  width: 110px;
+  padding: 10px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #00CAD0;
+  margin: auto;
+  margin-bottom: 100px;
+  transition: 500ms;
+
+
+  display: flex;
+  justify-content: center;
+}
+
+.btn-horarios a:hover {
+  color: #000;
+  background-color: #0076d0;
+}
+
+.box-info-pagina .texto {
+  font-size: 1rem;
+  font-weight: 500;
+  width: 550px;
+  margin-bottom: 10px;
+}
+
+
+.rota {
+  max-width: 1024px;
+  margin: 50px auto;
+}
+
+.container-rodape {
+  background-color:#0C6E71;
+  padding: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-rodape figure {
+  display: flex;
+  justify-content: center;
+}
+
+.box-rodape .texto-rodape {
+  text-align: center;
+}
+
+.texto-rodape .texto {
+  margin: 15px 0px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  user-select: none;
+}
+
+.box-rodape .logo {
+  width: 130px;
+}

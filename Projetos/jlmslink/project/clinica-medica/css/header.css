@@ -1,0 +1,33 @@
+.container-cabecalho {
+  width: 100%;
+  height: 50px;
+  background-color: #00cad1;
+
+  display: flex;
+}
+
+.conteudo-cabecalho {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0px auto;
+  padding: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-logo .logo {
+  width: 110px;
+}
+
+.navegacao .item {
+  margin: 0px 10px;
+  font-weight: 600;
+  color: #fff;
+  transition: 400ms;
+}
+
+.navegacao .item:hover {
+  color: #000;
+}
