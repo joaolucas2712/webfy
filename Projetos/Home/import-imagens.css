@@ -1,0 +1,19 @@
+.primeiro {
+  background-image: url(/assets/Linkedin.jpg);
+}
+
+.segundo {
+  background-image: url(/assets/Github.jpg);
+}
+
+.terceiro {
+  background-image: url(/assets/Devmedia.jpg);
+}
+
+.quarto {
+  background-image: url(/assets/meusProjetos.jpg);
+}
+
+.quinto {
+  background-image: url(/assets/contato.jpg);
+}
