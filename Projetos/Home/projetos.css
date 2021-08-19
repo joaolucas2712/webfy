@@ -68,6 +68,8 @@ body {
   font-weight: 500;
 }
 
+
+
 .container-conteudo .conteudo-card .etiqueta {
   max-width: 300px;
   display: flex;
@@ -78,7 +80,7 @@ body {
 
 .container-conteudo .conteudo-card .etiqueta .item {
   padding: 3px;
-  margin: 3px 3px;
+  margin: 10px 3px;
   background-color: #F7FFF7;
   border-radius: 3px;
   text-transform: uppercase;
